@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+console.clear(); // clear console
+
 console.log(`
 
 Thiruppathi Muthukumar
