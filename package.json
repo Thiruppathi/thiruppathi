@@ -1,5 +1,5 @@
 {
-  "name": "thiru",
+  "name": "thiruppathi",
   "version": "1.0.0",
   "description": "Get to know Thiru via `npm`. Just enter `npx thiru`",
   "main": "index.js",
@@ -7,17 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "thiru": "index.js"
+    "thiruppathi": "index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Thiruppathi/thiru.git"
+    "url": "git+https://github.com/Thiruppathi/thiruppathi.git"
   },
   "keywords": [],
   "author": "Thiruppathi Muthukumar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Thiruppathi/thiru/issues"
+    "url": "https://github.com/Thiruppathi/thiruppathi/issues"
   },
-  "homepage": "https://github.com/Thiruppathi/thiru#readme"
+  "homepage": "https://github.com/Thiruppathi/thiruppathi#readme"
 }
