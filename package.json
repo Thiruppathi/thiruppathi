@@ -1,7 +1,7 @@
 {
   "name": "thiruppathi",
   "version": "1.0.0",
-  "description": "Get to know Thiru via `npm`. Just enter `npx thiru`",
+  "description": "Get to know Thiruppathi via `npm`. Just enter `npx thiruppathi`",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
