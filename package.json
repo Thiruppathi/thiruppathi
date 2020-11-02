@@ -1,7 +1,7 @@
 {
   "name": "thiruppathi",
   "version": "1.0.1",
-  "description": "Get to know Thiruppathi via `npm`. Just enter `npx thiruppathi`",
+  "description": "Get to know Thiruppathi via `npx thiruppathi`",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,11 +13,20 @@
     "type": "git",
     "url": "git+https://github.com/Thiruppathi/thiruppathi.git"
   },
-  "keywords": [],
+  "keywords": [
+    "thiruppathi",
+    "thiru",
+    "profile",
+    "thiru.xyz",
+    "@thiruppathi"
+  ],
   "author": "Thiruppathi Muthukumar",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Thiruppathi/thiruppathi/issues"
   },
-  "homepage": "https://github.com/Thiruppathi/thiruppathi#readme"
+  "homepage": "https://github.com/Thiruppathi/thiruppathi#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }

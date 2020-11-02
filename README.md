@@ -1,3 +1,9 @@
-# thiruppathi
+# `npx thiruppathi`
 
-Get to know [Thiruppathi](https://thiru.xyz) via `npm`. Just enter `npx thiruppathi`
+> Get to know [Thiruppathi](https://thiru.xyz) using your command line with Node.js
+
+## Usage
+
+```sh
+npx thiruppathi
+```
