@@ -1,6 +1,6 @@
 {
   "name": "thiruppathi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get to know Thiruppathi via `npx thiruppathi`",
   "main": "index.js",
   "scripts": {
