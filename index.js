@@ -2,6 +2,8 @@
 
 const packageJson = require('./package.json');
 const chalk = require('chalk');
+const boxen = require('boxen');
+const terminalLink = require('terminal-link');
 
 const profile = {
   name: 'Thiruppathi Muthukumar',
@@ -15,12 +17,14 @@ const profile = {
 
 console.clear(); // clear console
 
-console.log(`
-${chalk.blue.bold(profile.name)}
-${chalk.dim(profile.title)}
-
-`);
+console.log(
+  boxen(`${chalk.blue.bold(profile.name)}\n${chalk.dim(profile.title)}`, {
+    padding: 1,
+    borderStyle: 'round',
+  })
+);
 
 profile.links.forEach((link) => {
-  console.log(`${chalk.bold(link.key)}: ${chalk.dim(link.value)}`);
+  const linktext = terminalLink(link.key, link.value);
+  console.log(linktext);
 });

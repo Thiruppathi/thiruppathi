@@ -27,6 +27,8 @@
   },
   "homepage": "https://github.com/Thiruppathi/thiruppathi#readme",
   "dependencies": {
-    "chalk": "^4.1.0"
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "terminal-link": "^2.1.1"
   }
 }
