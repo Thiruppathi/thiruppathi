@@ -15,7 +15,7 @@ const profile = {
   ],
 };
 
-console.clear(); // clear console
+console.clear(); // clears console
 
 console.log(
   boxen(`${chalk.blue.bold(profile.name)}\n${chalk.dim(profile.title)}`, {
